@@ -21,4 +21,5 @@ Faster RCNN:
 
 # Reproduction of tf-faster-rcnn:
 - Create a soft link to use the VOC datasets in data folder
+
 ln -s [VOC datasets folder] [current code data folder]
