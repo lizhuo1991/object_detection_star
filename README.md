@@ -1,18 +1,24 @@
-# object_detection_star
-the star of object detection
+# object_detection_reproduction
+the reproduction of object detection
 
 Faster RCNN: 
-https://github.com/rbgirshick/py-faster-rcnn
-https://github.com/akshaylamba/FasterRCNN_KERAS
-https://github.com/eric612/Vehicle-Detection
-https://github.com/CharlesShang/FastMaskRCNN
+- https://github.com/endernewton/tf-faster-rcnn (the best)
 
-VGG.npy
-链接：https://pan.baidu.com/s/1tbeZgYEbuQYdSAcdmrX-fg 密码：bh96
-https://pan.baidu.com/s/1zctm_3yezrPPft7kOxW2_g
+- https://github.com/rbgirshick/py-faster-rcnn
+- https://github.com/akshaylamba/FasterRCNN_KERAS
+- https://github.com/eric612/Vehicle-Detection
+- https://github.com/CharlesShang/FastMaskRCNN
 
-基础tensorflow模型下载：
-https://github.com/tensorflow/models/tree/master/research/slim
+# VGG.npy
+- 链接：https://pan.baidu.com/s/1tbeZgYEbuQYdSAcdmrX-fg 密码：bh96
+- https://pan.baidu.com/s/1zctm_3yezrPPft7kOxW2_g
 
-Read tensor name and weight values from .ckpt file:
-https://blog.csdn.net/qq_32331347/article/details/79048899
+# 基础tensorflow模型下载：
+- https://github.com/tensorflow/models/tree/master/research/slim
+
+# Read tensor name and weight values from .ckpt file:
+- https://blog.csdn.net/qq_32331347/article/details/79048899
+
+# Reproduction of tf-faster-rcnn:
+- Create a soft link to use the VOC datasets in data folder
+ln -s [VOC datasets folder] [current code data folder]
