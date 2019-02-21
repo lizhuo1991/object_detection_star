@@ -10,3 +10,9 @@ https://github.com/CharlesShang/FastMaskRCNN
 VGG.npy
 链接：https://pan.baidu.com/s/1tbeZgYEbuQYdSAcdmrX-fg 密码：bh96
 https://pan.baidu.com/s/1zctm_3yezrPPft7kOxW2_g
+
+基础tensorflow模型下载：
+https://github.com/tensorflow/models/tree/master/research/slim
+
+Read tensor name and weight values from .ckpt file:
+https://blog.csdn.net/qq_32331347/article/details/79048899
