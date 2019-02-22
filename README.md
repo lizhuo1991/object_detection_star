@@ -20,12 +20,12 @@ Faster RCNN:
 - https://blog.csdn.net/qq_32331347/article/details/79048899
 
 # Reproduction of tf-faster-rcnn:
-- Create a soft link to use the VOC datasets in data folder
+Create a soft link to use the VOC datasets in data folder
 
-ln -s [VOC datasets folder] [current code data folder]
+- ln -s [VOC datasets folder] [current code data folder]
 
-- Report errors from line 122 and 129 of voc_eval.py
+Report errors from line 122 and 129 of voc_eval.py
 
-line 122 error is python version problem, change line 121 to -- with open(cachefile, 'wb') as f: --
+- line 122 error is python version problem, change line 121 to -- with open(cachefile, 'wb') as f: --
 
-line 129 error, change line 105 to -- cachefile = os.path.join(cachedir, '%s_annots.pkl' % imagesetfile.split("/")[-1].split(".")[0]) --
+- line 129 error, change line 105 to -- cachefile = os.path.join(cachedir, '%s_annots.pkl' % imagesetfile.split("/")[-1].split(".")[0]) --
