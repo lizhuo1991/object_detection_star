@@ -23,3 +23,9 @@ Faster RCNN:
 - Create a soft link to use the VOC datasets in data folder
 
 ln -s [VOC datasets folder] [current code data folder]
+
+- Report errors from line 122 and 129 of voc_eval.py
+
+line 122 error is python version problem, change line 121 to -- with open(cachefile, 'wb') as f: --
+
+line 129 error, change line 105 to -- cachefile = os.path.join(cachedir, '%s_annots.pkl' % imagesetfile.split("/")[-1].split(".")[0]) --
