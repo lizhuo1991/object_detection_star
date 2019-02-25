@@ -29,3 +29,11 @@ Report errors from line 122 and 129 of voc_eval.py
 - line 122 error is python version problem, change line 121 to -- with open(cachefile, 'wb') as f: --
 
 - line 129 error, change line 105 to -- cachefile = os.path.join(cachedir, '%s_annots.pkl' % imagesetfile.split("/")[-1].split(".")[0]) --
+
+# Download MS-COCO datasets
+- http://images.cocodataset.org/zips/train2017.zip
+- http://images.cocodataset.org/annotations/annotations_trainval2017.zip
+- http://images.cocodataset.org/zips/val2017.zip
+- http://images.cocodataset.org/annotations/stuff_annotations_trainval2017.zip
+- http://images.cocodataset.org/zips/test2017.zip
+- http://images.cocodataset.org/annotations/image_info_test2017.zip
